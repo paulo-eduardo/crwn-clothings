@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
 
+import HomePage from "./homepage.components";
+
 function App() {
-  return <div>Hellow World</div>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 
 export default App;
